@@ -37,6 +37,10 @@
    height: 50px;
    width: 80px;
    margin-right: 4px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .add-icon{
     display: flex;
@@ -78,5 +82,33 @@ input{
     width:40px;
     height: 40px;
 }
+
+/* Nav bar - Sign In */
+.nav-signIn{
+    width:130px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav bar - Return */
+.nav-return{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav bar - Cart */
+.nav-cart{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
