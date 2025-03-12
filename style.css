@@ -168,9 +168,58 @@ input{
 /* Hero Section*/
 .hero-section{
     background-image: url(hero_image.jpg);
-    height: 600px;
+    height: 350px;
     background-size: cover;
 }
 
+/* Hero Section box for products */
+.product-section{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width:340px;
+    height:420px;
+    background-color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box1-images{
+    display: flex;
+    /* justify-content: space-between;
+    align-items:center; */
+    flex-wrap: wrap;
+    height: 350px;
+}
+.img1-section, .img2-section, .img3-section, .img4-section{
+    height: 170px;
+    width: 170px;
+    padding-left: 10px;
+}
+.img1{
+    background-image: url("box1_img1.jpg");
+    background-size:cover;
+    height: 150px;
+    width: 150px;
+}
+.img2{
+    background-image: url("box1_img1.jpg");
+    background-size:cover;
+    height: 150px;
+    width: 150px;
+}
+.img3{
+    background-image: url("box1_img1.jpg");
+    background-size:cover;
+    height: 150px;
+    width: 150px;
+}
+.img4{
+    background-image: url("box1_img1.jpg");
+    background-size:cover;
+    height: 150px;
+    width: 150px;
+}
 
 
