@@ -176,19 +176,23 @@ input{
 .product-section{
     display: flex;
     justify-content: space-between;
+    background-color: lightgray;
+    flex-wrap: wrap;
 }
+/*Each box of product section*/
 .box{
     width:340px;
     height:420px;
-    background-color: grey;
+    background-color: white;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap:wrap;
 }
 
 .box1-images{
     display: flex;
-    /* justify-content: space-between;
-    align-items:center; */
     flex-wrap: wrap;
     height: 350px;
 }
@@ -197,29 +201,69 @@ input{
     width: 170px;
     padding-left: 10px;
 }
-.img1{
+.box1-img1{
     background-image: url("box1_img1.jpg");
-    background-size:cover;
-    height: 150px;
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
     width: 150px;
+    height: 150px;
 }
-.img2{
-    background-image: url("box1_img1.jpg");
-    background-size:cover;
-    height: 150px;
+.box1-img2{
+    background-image: url("box1_img2.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
     width: 150px;
+    height: 150px;
 }
-.img3{
-    background-image: url("box1_img1.jpg");
-    background-size:cover;
-    height: 150px;
+.box1-img3{
+    background-image: url("box1_img3.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
     width: 150px;
+    height: 150px;
 }
-.img4{
-    background-image: url("box1_img1.jpg");
-    background-size:cover;
-    height: 150px;
+.box1-img4{
+    background-image: url("box1_img4.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
     width: 150px;
+    height: 150px;
 }
 
-
+/* Box2 Images*/
+.box2-img1{
+    background-image: url("box2_img1.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}
+.box2-img2{
+    background-image: url("box2_img2.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}
+.box2-img3{
+    background-image: url("box2_img3.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}
+.box2-img4{
+    background-image: url("box2_img4.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}
