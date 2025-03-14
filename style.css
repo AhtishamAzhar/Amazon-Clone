@@ -267,3 +267,34 @@ input{
     width: 150px;
     height: 150px;
 }
+/* Box3 Images*/
+.box3-img1{
+    background-image: url("box3_img1.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}
+.box3-img2{
+    background-image: url("box3_img2.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}.box3-img3{
+    background-image: url("box3_img3.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}.box3-img4{
+    background-image: url("box3_img4.jpg");
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    width: 150px;
+    height: 150px;
+}
